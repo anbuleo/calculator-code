@@ -1,0 +1,27 @@
+*{  
+    background-image: url(png_and_icons/rm373batch13-086.jpg);
+    background-size: cover;
+    color: azure;
+}
+.container{
+
+   padding: 12em 18em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  
+}
+#output{
+    color: darksalmon !important;
+}
+.dob1{
+    color:gold;
+}
+.button{
+    border-radius: 2em;
+    height: 5vh;
+    width: 10vw;
+    background-color: darkblue;
+    color:lightblue;
+}

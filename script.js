@@ -3,7 +3,7 @@
 function getDateOfYear(){
     const dateofbirth = new Date(document.getElementById("dob").value);
     const currentDate = new Date();
-    if(isNaN(dateofbirth)){
+    if(isNaN(dateofbirth)|| dateofbirth>currentDate){
         document.getElementById("output").innerHTML=`!Enter a valid date of birth`
         return
     }
