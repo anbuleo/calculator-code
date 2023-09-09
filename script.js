@@ -14,7 +14,9 @@ function getDateOfYear(){
     if(monthDifference<0 || (monthDifference===0 && currentDate.getDate()<dateofbirth.getDate())){
         result--;
     }
-    document.getElementById("output").innerHTML=`You are ${result} old now.`
+   let name= document.getElementById("name").value
+    let cap = name.toUpperCase()
+    document.getElementById("output").innerHTML=`Hai "${cap}" ,you are ${result} old now.`
 
 }
 
